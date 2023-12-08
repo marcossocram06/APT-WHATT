@@ -1,0 +1,14 @@
+(nao usar seu numero oficial pq pode ser banido )
+
+mkdir /opt/beezap2
+
+cd /opt/beezap2/
+
+apt install -y build-essential
+
+apt-get install libgbm-dev
+
+
+wget https://dl.google.com/linux/direct/google/chrome-stable_current_amd64.deb
+
+
