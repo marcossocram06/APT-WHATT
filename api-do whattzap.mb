@@ -9,6 +9,34 @@ apt install -y build-essential
 apt-get install libgbm-dev
 
 
-wget https://dl.google.com/linux/direct/google/chrome-stable_current_amd64.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O chrome.deb
+
+dpkg -i chrome.deb
+
+
+apt install npm
+
+apt --fix-broken install
+
+npm install -g pm2
+
+npm install -g n
+
+n latest
+
+npm init -y
+
+PRONTO FALTA INSTALAR AS DEPENDENCIAS
+
+###
+
+
+
+
+
+
+
+
+
 
 
